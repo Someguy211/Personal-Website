@@ -1,0 +1,289 @@
+p {
+    background-color: rgb(32,42,68);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 180px 90px 45px 90px;
+    max-width: 540px;
+    font-size: 20px;
+    overflow-x: hidden;
+
+}
+
+body{
+    background-color: rgb(32,42,68);
+    text-align: center;
+    color: white;
+    overflow-x: hidden;
+    margin: 0;
+}
+.headerr{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 150px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.container{
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: bold;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.links{
+    position: fixed;
+  width: 100%;
+  top: 40px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-weight: bold;
+animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  a {
+    color: white;
+    margin-right: 18px;
+    border-radius: 10px;
+  }
+
+  section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+    
+  }
+
+
+.loll{
+  background-color: black;
+  box-sizing:border-box;
+  width: 100%;
+  height: 100vh;
+  
+  }
+  .lol{
+    width: 100%;
+    width: 100%;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+  .headerforsectionone{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .loll{
+    background-color: #3C5291;
+    box-sizing:border-box;
+    width: 100%;
+    height: 100vh;
+    
+    }
+    
+    .mainmain{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+  
+  .mainmaintwo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3C5291;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .sectionthreemain{
+    background-color: #224952;
+    box-sizing:border-box;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .newnewnew{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: none;
+
+  
+  }
+
+  .mainmainthree{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: none;
+  background-color: #224952;
+  font-size: 50px;
+  margin-bottom: 10px;
+  }
+
+ 
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg{
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 115px;
+}
+
+.wave .shape-fill{
+    fill: #3C5291;
+}
+
+.waveTwo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.waveTwo svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 115px;
+}
+
+.waveTwo .shape-fill {
+  fill: #3C5291;
+}
+
+.waveThree {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.waveThree svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 115px;
+}
+
+.waveThree .shape-fill {
+  fill: #224952;
+}
+
+.lastsection{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+
+.lastsectiontext{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.githublogo{
+  font-size: 50px;
+  margin-top: -60px;
+  margin-right: 80px;
+  animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+
+.twitterlogo{
+  font-size: 50px;
+  margin-top: -60px;
+  margin-right: -70px;
+  animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+
+.project-card{
+  width: 300px;
+  height: 500px;
+box-shadow: 5px 5px 20px black;
+justify-content: space-around;
+margin: 20px;
+border-radius: 40px;
+border-color: black;
+}
+
+.project-container{
+  display: flex;
+  justify-content: space-around;
+}
+.subinfo{
+  font-size: 20px;
+  font-weight: 300;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #224952;
+  margin-top: 15px;
+}
+.titlep1{
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #224952;
+  font-weight: bold;
+}
+
+.secondsubinfop1{
+background-color: #224952;
+font-weight: bold;
+margin-top: 210px;
+font-size: 20px;
+}
